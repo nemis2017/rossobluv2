@@ -2,7 +2,7 @@
 <widget id="com.starpeople.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
     <name>ILROSSOBLU2</name>
-    <description>ILROSSOBLU</description>
+    <description>ILROSSOBLU2</description>
     <author email="chris@" href="http://www.biolabadv.it">Biolab ADV</author>
     
     <preference name="phonegap-version" value="cli-7.0.1" />
