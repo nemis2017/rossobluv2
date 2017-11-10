@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ILROSSOBLU</title>
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta charset="utf-8">
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+  
+
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+	
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+	
+	   // Global InAppBrowser reference
+
+    // device APIs are available
+
+    function onDeviceReady() {
+        var ref = window.open("http://www.ilrossoblu.it", "_blank","zoom=no", "location=no", "closebuttoncaption=back", "EnableViewPortScale=no");
+	return true;
+
+        
+    }
+
+    </script>
+	
+		<style>
+body {
+    /*background-color: black;*/
+}
+
+
+</style>
+  </body>
+</html>
+

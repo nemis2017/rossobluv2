@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.starpeople.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    
+    <name>ILROSSOBLU</name>
+    <description>ILROSSOBLU</description>
+    <author email="chris@" href="http://www.biolabadv.it">Biolab ADV</author>
+    
+    <preference name="phonegap-version" value="cli-7.0.1" />
+    <preference name="android-build-tool" value="gradle" />
+    
+    <feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+</feature>
+
+    
+    
+    <feature name="http://api.phonegap.com/1.0/device" />
+    
+    <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
+    
+<plugin name="cordova-plugin-battery-status" spec="~1.2.4" />
+<plugin name="cordova-plugin-camera" spec="~2.4.1" />
+<plugin name="cordova-plugin-console" spec="~1.1.0" />
+<plugin name="cordova-plugin-contacts" spec="~2.3.1" />
+<plugin name="cordova-plugin-device" spec="~1.1.6" />
+<plugin name="cordova-plugin-device-motion" spec="~2.0.0" />
+<plugin name="cordova-plugin-device-orientation" spec="~2.0.0" />
+<plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
+<plugin name="cordova-plugin-file" spec="~4.3.3" />
+<plugin name="cordova-plugin-file-transfer" spec="~1.6.3" />
+<plugin name="cordova-plugin-geolocation" spec="~2.4.3" />
+<plugin name="cordova-plugin-globalization" spec="~1.0.7" />
+<plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
+<plugin name="cordova-plugin-media" spec="~3.0.1" />
+<plugin name="cordova-plugin-media-capture" spec="~1.4.3" />
+<plugin name="cordova-plugin-network-information" spec="~1.3.3" />
+<plugin name="cordova-plugin-splashscreen" spec="~4.0.3" />
+<plugin name="cordova-plugin-vibration" spec="~2.1.5" />
+<plugin name="cordova-plugin-statusbar" spec="~2.2.3" />
+<plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
+  
+
+
+    <icon src="icon.png" />
+    
+    
+
+    <icon src="res/icons/android/drawable-ldpi/Icon.png"  density="ldpi" />
+    <icon src="res/icons/android/drawable-mdpi/Icon.png"  density="mdpi" />
+    <icon src="res/icons/android/drawable-hdpi/Icon.png"  density="hdpi" />
+    <icon src="res/icons/android/drawable-xdpi/Icon.png"  density="xhdpi" />
+    
+    <splash src="splash.png" />
+    
+    <splash src="res/screen/android/drawable-ldpi/splash.png"   density="ldpi" />
+    <splash src="res/screen/android/drawable-mdpi/splash.png"   density="mdpi" />
+    <splash src="res/screen/android/drawable-hdpi/splash.png"   density="hdpi" />
+    <splash src="res/screen/android/drawable-xhdpi/splash.png"  density="xhdpi" />
+ 
+
+     <!-- content src="http://www.google.it" /> -->
+    <access origin="*" />
+</widget>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
